@@ -1,0 +1,10 @@
+logs.users:
+    - admin
+
+### nimbus.* configs are for the master
+nimbus.host: "localhost"
+supervisor.slots.ports:
+    - 6700
+    - 6701
+    - 6702
+    - 6703
